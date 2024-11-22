@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 12%;
+    width: 100%;
+    background-color: rgb(244, 244, 250);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.texts{
+    color: rgb(15, 15, 15);
+    margin: 20px;
+
+}
+.texts:hover{
+    color: blue;
+}
+#contactdetails{
+    margin-left: 40px;
+    font-weight: lighter;
+
+}
+#logo{
+
+}
+#logo img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+#fakeheader{
+    height: 12%;
+    width: 100%;
+    background-color: rgb(213, 31, 31);
+}
+.icon{
+    
+    border-radius: 50%;
+    padding: 8px;
+}
+.icon:hover{
+    background-color: blue;
+}
+#login{
+    padding: 8px;
+    border-radius: 50px;
+}
+#login:hover{
+    background-color: blue;
+}
+#page1{
+    height: 90%; 
+    width: 100%;
+   background-color: rgb(170, 201, 222);
+}
+#strip{
+    height: 8%;
+    width: 100%;
+    background-color: blue;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#strip u{
+    font-weight: lighter;
+}
+#content{
+    width: 100%;
+    height: 76%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#box1{
+    height: 90%;
+    width: 48%;
+    background-color: white;
+    
+}
+#box2{
+    height: 90%;
+    width: 48%;
+    background-color: rgb(185, 209, 232);
+    
+}
+#heading{
+    width: 100%;
+    height: 16%;
+    background-color: rgb(82, 90, 246);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+#buttons{
+    display: flex;
+}
+#buttons1{
+    padding: 10px 20px;
+    color:white;
+    background-color:rgb(43, 170, 213);
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+#buttons1:hover{
+    background-color: rgb(5, 131, 173);
+}
+#buttons2{
+    padding: 10px 20px;
+    color:rgb(131, 206, 231);
+    width: 20%;
+    border: 1px solid rgb(85, 196, 233);
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+#buttons2:hover{
+    color:rgb(15, 186, 243);
+    background-color: rgb(207, 235, 245);
+    border-color: deepskyblue;
+}
+#try{
+    background-color: rgb(59, 212, 130);
+    padding: 10px;
+}
+#try:hover{
+    background-color: rgb(12, 151, 12);
+}
+#page2{
+    height: 87%;
+    width: 100%;
+    background-color: blueviolet;
+}
